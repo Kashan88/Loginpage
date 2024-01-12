@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.outer-container{
+    padding: 30px 50px;
+    width: 500px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+    border: 1px solid rgba(255,255,255,0.51);
+}
+.inner-container h2{
+    font-size: 3rem;
+    margin: 15px 0;
+    text-align: center;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.input-field label{
+    font-size: 1.2rem;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+}
+.input-field input{
+    border: 0;
+    border-radius: 12px;
+    color: rgba(121,107,107);
+    padding: 10px 10px;
+    font-size: 1rem;
+    letter-spacing: 0.8px;
+}
+.input-field input:focus{
+    outline: none;
+    box-shadow: rgba(0,0,0,0.24) opx 3px 8px;
+}
+.inner-top p{
+    font-size: 0.8rem;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+}
+.inner-bottom button{
+    width: 100%;
+    padding: 9px 0;
+    margin: 3px 0;
+    background: aqua;
+    border: 0;
+    transition: all .3s linear;
+    border-radius: 12px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+}
+.inner-bottom button:hover{
+    background-color: rgba(39,156,159);
+}
+.inner-bottom button:active{
+    background-color: rgba(16,131,131);
+}
+.inner-bottom p{
+    text-align: center;
+}
+.main-social-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    width: 110px;
+    height: 50px;
+}
+.span{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
